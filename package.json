@@ -4,5 +4,22 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-prettier": "^4.0.0",
     "live-server": "^1.2.1"
-  }
+  },
+  "name": "curso-inaem-proyecto2",
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imaquer/curso-inaem-proyecto2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imaquer/curso-inaem-proyecto2/issues"
+  },
+  "homepage": "https://github.com/Imaquer/curso-inaem-proyecto2#readme"
 }
