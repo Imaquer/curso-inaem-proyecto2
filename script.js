@@ -25,6 +25,10 @@ const renderCountry = (data, optionalClass = "") => {
   countryContainer.innerHTML += html;
   countryContainer.style.opacity = 1;
 };
+// fetch(url)
+//     .then(response => response.json())
+//     .then (data=> console.log(data))
+//     .catch(err => console.log(err.message));
 
 const getCountryData = function (country) {
   fetch(`https://restcountries.com/v3.1/name/${country}`)
@@ -64,3 +68,13 @@ const getJSON = function (url, errMessage) {
     return response.json();
   });
 };
+
+function whereami(lat, lng) {
+  const url = "https://geocode.xyz/${lat},${lng}?geoit=json";
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      //obtener el paid y llamar a geocountry
+      console.log(data);
+    });
+}
